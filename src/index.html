@@ -1,15 +1,50 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <meta charset="utf-8" />
+    <title>Ayuda mujer</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
-      
-    </div>
+    <section class="window1"  style="display: flex">
+      <img  class="woman" src="imagen/img.jpg"  alt=" ">
+      <div class="txt">
+        <h1 class="little1">ENTRENOSOTRAS</h1>
+        <p class="little2">
+          <b>¡</b> Hola bienvenida, estamos para ti, si sufres algun tipo de violencia fisica o spsicologica,
+        tranquila no estas sola,<b  >ENTRENOSOTRAS </b
+          >esta diseñado para ayudarte a comunicarte atravez de codigos mediante el
+          <b>CIFRADO CESAR.!</b>
+        </p>
+        <button class="descripcion_button" id="btn1">Iniciar</button>
+        </div>
+      </section>
+  <section class="window2" style="display:none">
+    <h1 class="little3">Cifrado César</h1>
+  
+        <h5 class="etiq1">
+          <u>Instrucciones</u></h5>
+          <h3 class="etiq2">1. Escriba el mensaje a codificar o decodificar.</h3>
+      <textarea
+        type="text"
+        class="caja1"
+        placeholder="Escribir aqui el texto!!!!!"
+      ></textarea>
+      <h5 class="etiq3">2. Ingrese el número de desplazamiento.</h5>
+      <br />
+      <input class="input1" type="number" id="intervalo" min="0" max="30" />
+      <br />
+      <h5 class="etiq4">3. Click en cifrar o descifrar según requiera.</h5>
+      <button class="encodebtn" id="btn2">Codificar</button>
+      <button class="decodebtn"  id="btn3">Decodificar</button>
+      <h5 class="etiq5">4.¡Tu mensaje aparece aqui!.</h5>
+      <textarea
+        type="text"
+        class="caja2"
+        placeholder="El Texto cifrado aparecera aquí.......!!!!"
+      ></textarea>
+      <button class="returnbutton" id="btn4">Retornar</button>
+    </section>
     <script src="index.js" type="module"></script>
   </body>
-</html>
+   </html>
