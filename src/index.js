@@ -1,35 +1,33 @@
 import cipher from "./cipher.js";
-//declaro el boton  inicio//
-const descripcion_button = document.getElementById("btn1"); //llama al boton del html//
-// le damos funcionabilidad al boton inicio para que oculte la primera ventana y pase a la segunda ventana//
+
+const descripcion_button = document.getElementById("btn1");
+
 descripcion_button.addEventListener("click", () => {
-  // Al botón se le adicióna el click y lo que pasa cuando éste evento sucede.//
   const window1 = document.querySelector(".window1");
   const window2 = document.querySelector(".window2");
   window1.style.display = "none";
   window2.style.display = "block";
 });
 
-const buttonSend = document.getElementById("btn2"); //DECLARAMOS  LA VARIABLE PARA EL BOTON CODIFICADO  Y LLAMAMOS AL BOTON DESDE EL HTML
+const buttonSend = document.getElementById("btn2");
 buttonSend.addEventListener("click", capTextOffset);
 function capTextOffset() {
-  let offset = document.getElementById("interval").value; // NUMEROS DE CUANTO  VA A CORRER
-  let string = document.getElementById("c1").value; // MENSAJE DEL USUARIO
-  const encodeString = cipher.encode(offset, string); //LLAMADO CIPHER  ENCODE
-  document.getElementById("c2").value = encodeString; // CAJITA FINAL CON MENSAJE CODIFICADO
+  let offset = document.getElementById("interval").value;
+  let string = document.getElementById("c1").value;
+  const encodeString = cipher.encode(offset, string);
+  document.getElementById("c2").value = encodeString;
 }
-const debuttonSend = document.getElementById("btn3"); //DECLARAMOS  LA VARIABLE PARA EL BOTON DECODIFICADO
+const debuttonSend = document.getElementById("btn3");
 debuttonSend.addEventListener("click", acapTextOffset);
 function acapTextOffset() {
-  let offset = document.getElementById("interval").value; // NUMEROS DE CUANTO  VA A CORRER
-  let string = document.getElementById("c1").value; // MENSAJE DEL USUARIO
-  const decodeString = cipher.decode(offset, string); //LLAMADO CIPHER
-  document.getElementById("c2").value = decodeString; // CAJITA FINAL CON MENSAJE CODIFICADO
+  let offset = document.getElementById("interval").value;
+  let string = document.getElementById("c1").value;
+  const decodeString = cipher.decode(offset, string);
+  document.getElementById("c2").value = decodeString;
 }
-const return_button = document.getElementById("btn4"); //llama al boton del html//
-// le damos funcionabilidad al boton para que regrese a la ventana inicial Y se limpien los espacios //
+const return_button = document.getElementById("btn4");
+
 return_button.addEventListener("click", () => {
-  // Al botón se le adicióna el click y lo que sucede cuando éste evento sucede.//
   const window2 = document.querySelector(".window2");
   const window1 = document.querySelector(".window1");
   window2.style.display = "none";

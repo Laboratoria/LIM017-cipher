@@ -1,7 +1,7 @@
 # ENTRENOSOTRAS
-Es una pagina wed que utiliza implementos basicos como html,css, javascrip.
+Es una pagina wed que utiliza el cifrado cesar para codificar y decodificar mensajes a un numero de  intervalos.
 ## Proceso
-.Se inicio con un prototipo en figma:
+### Se inicio con un prototipo en figma:
 https://www.figma.com/file/B0A9O8YmLQwQwbU4Ja7SUU/Untitled?node-id=0%3A1
 .se crearon dos ventanas :
  1. Primera ventana a la cual se le agrego la imagen:
