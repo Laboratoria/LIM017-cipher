@@ -50,18 +50,15 @@ b {
 
 .wind {
   width: 50%;
-  display: absolute;
   position: absolute;
-  margin: 0%;
+  
 }
 .hero {
   width: 200%;
-  display: absolute;
   position: absolute;
-  margin: absolute;
 }
 .txt1 {
-  position: relative;
+  position: absolute;
 }
 
 .little3 {
