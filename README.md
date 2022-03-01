@@ -8,11 +8,11 @@ https://www.figma.com/file/B0A9O8YmLQwQwbU4Ja7SUU/Untitled?node-id=0%3A1
 https://github.com/arelia10/LIM017-cipher/blob/0edb0ffa205b210f84169c1e6b5a0ab0f6b0156f/src/imagen/img.jpg
  2. Segunda ventana se le agrego la imagen:
 https://github.com/arelia10/LIM017-cipher/blob/0edb0ffa205b210f84169c1e6b5a0ab0f6b0156f/src/imagen/img2.jpg
-. se investigo para el html , css y javascrip en:
-https://developer.mozilla.org/es
-https://www.youtube.com/watch?v=4xig5UPRC00
-https://www.geeksforgeeks.org
-https://fonts.gstatic.com
+ 3. se investigo para el html , css y javascrip en:
+#Heading 1 link (https://developer.mozilla.org/es)
+#Heading 1 link (https://www.youtube.com/watch?v=4xig5UPRC00)
+#Heading 1 link (https://www.geeksforgeeks.org)
+#Heading 1 link (https://fonts.gstatic.com)
 ## Usuarios
 Esta pagina wed esta diseñada  para aquellas mujeres que sufren de violencia fisica y psicologica que buscan una manera de comunicarse sin ser descubiertas por su agresor.
 ## Funcionalidad
