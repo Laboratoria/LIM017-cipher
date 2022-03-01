@@ -8,10 +8,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
     <section class="window1"  style="display: flex">
-      <img  class="woman" src="imagen/img.jpg"  alt=" ">
+      <img  class="woman" src="imagen/img.jpg"  >
       <div class="txt">
         <h1 class="little1">E N T R E N O S O T R A S</h1>
         <p class="little2">
@@ -21,34 +23,36 @@
         <button class="descripcion_button" id="btn1">Iniciar</button>
         </div>
       </section>
-    <section class="window2" style="display:none">
-    <img  class="hero" src="imagen/img2.jpg"  alt=" ">
-    <h1 class="little3">Cifrado César</h1>
+      <section class="window2" style="display:none">
+    <div class="wind" style="display: flex">
+    <img  class="hero" src="imagen/img2.jpg"  >
+    <div class="txt1">
+    <h1 class="little3">CIFRADO CESAR</h1>
      <h5 class="etiq1">
-          <u>Instrucciones</u></h5>
-          <h3 class="etiq2">1. Escriba el mensaje a codificar o decodificar.</h3>
-      <textarea
+          Codifica y Decodifica tus Mensajes</h5>
+  <textarea
         type="text"
         class="caja1"
         id="c1"
-        placeholder="Escribir aqui el texto!!!!!"
+        placeholder=".INGRESE SU MENSAJE...........!"
       ></textarea>
-      <h5 class="etiq3">2. Ingrese el número de desplazamiento.</h5>
+      <h5 class="etiq2">Ingrese el N° de Desplazamiento.</h5>
       <br />
       <input class="input1" type="number" id="interval" min="0" max="33"/>
       <br />
-      <h5 class="etiq4">3. Click en cifrar o descifrar según requiera.</h5>
-      <button class="encodebtn" id="btn2">Codificar</button>
-      <button class="decodebtn"  id="btn3">Decodificar</button>
-      <h5 class="etiq5">4.¡Tu mensaje aparece aqui!.</h5>
+      <button class="encodebtn" id="btn2">CODIFICAR</button>
+      <button class="decodebtn"  id="btn3">DECODIFICAR</button>
+      <h5 class="etiq3">Tu Mensaje Esta Aqui</h5>
       <textarea
         type="text"
         class="caja2"
         id="c2"
-        placeholder="El Texto cifrado aparecera aquí.......!!!!"
+        placeholder="EL MENSAJE APARECE AQUI........!"
       ></textarea>
-      <button class="returnbutton" id="btn4">Atras</button>
-   </section>
+      <button class="returnbutton" id="btn4">ATRAS</button>
+    </div>
+  </div>
+  </section>
   <script src="index.js" type="module"></script>
   </body>
    </html>
